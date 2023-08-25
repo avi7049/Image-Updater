@@ -16,10 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-<<<<<<< HEAD
-        image: avivv/ultimate-cicd:24
-=======
-        image: avivv/ultimate-cicd:14
->>>>>>> parent of bb99886 (Update deployment.yml)
+        image: avivv/ultimate-cicd::replaceImageTag
         ports:
         - containerPort: 8080
